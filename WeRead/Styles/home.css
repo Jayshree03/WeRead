@@ -1,0 +1,727 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* 1vh=0.462vw */
+
+html {
+    width: 100vw;
+}
+
+body {
+    min-height: 46.2vw;
+    width: 100vw;
+    position: relative;
+    margin: 0%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+    background-color: #48e61813;
+    overflow-x: hidden;
+}
+
+#homeSec {
+    width: 100vw;
+    height: 46.2vw;
+    max-width: 100vw;
+    background-color: #BBD9F3;
+    max-width: 100vw;
+}
+
+#logo {
+    width: 24vw;
+    height: 8vw;
+}
+
+#nav {
+    height: 8vw;
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 2.0vw;
+    margin-left: 6vw;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#activeLink {
+    color: #9E1E35;
+}
+
+#passiveLink {
+    color: #3B3D3F;
+}
+
+#passiveLink:hover {
+    color: rgb(161, 57, 29);
+}
+
+#navLogLink {
+    font-size: 2vw;
+    text-decoration: none;
+    color: #E3E8ED;
+    font-weight: 300;
+}
+
+#navLog {
+    background-color: #9E1E35;
+    border: 0px solid white;
+    border-radius: 1.7vw;
+    height: 3.696vw;
+    width: 8vw;
+    margin-left: 6vw;
+}
+
+#navLog:hover {
+    height: 3.8346vw;
+    width:8.3vw;
+    background-color: #3B3D3F;
+    cursor: pointer;
+}
+
+#text-section1 {
+    width: 50vw;
+    height: 36.96vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#sec1Head {
+    font-family: 'League Spartan', sans-serif;
+    color: #3B3D3F;
+    font-size: 5vw;
+    font-weight: 100;
+    text-align: center;
+    width: 42vw;
+}
+
+#navLogSec {
+    background-color: #9E1E35;
+    border: 0px solid white;
+    border-radius: 1.7vw;
+    height: 3.696vw;
+    width: 8vw;
+    margin-top: 1.386vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+}
+
+#navLogSec:hover {
+    height: 3.8346vw;
+    width:8.3vw;
+    background-color: #3B3D3F;
+    cursor: pointer;
+}
+
+.signup:hover #navLogSigLink {
+    color: #cccfd3;
+}
+
+#secButtonGrid {
+    display: flex;
+}
+
+#navLogSigLink {
+    color: #9E1E35;
+    font-size: 1.9vw;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#navLogSigLink:hover {
+    color: #E3E8ED;
+}
+
+#navLogSigSec {
+    background-color:#E3E8ED;
+    border: 0px solid white;
+    border-radius: 1.6vw;
+    height: 3.696vw;
+    width: 8vw;
+    margin-top: 1.386vw;
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+}
+
+#navLogSigSec:hover {
+    height: 3.8346vw;
+    width:8.3vw;
+    background-color: #9E1E35;
+    color: #E3E8ED;
+    cursor: pointer;    
+}
+
+#section1 {
+    display:flex;
+    width:100vw;
+}
+
+#sec1-Img {
+    width: 50vw;
+    height: 36.96vw; 
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+#sec1Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    border-radius: 4vw;
+    width: 40vw;
+}
+
+#aboutSec {
+    height: 39.27vw;
+    width: 100%;
+    max-width: 100vw;
+    background-color: #ede3e3;
+}
+
+#aboutHead {
+    color: #2d2e30;
+    font-size: 5vw;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 100;
+    padding-top: 4.62vw;
+    padding-bottom: 4.62vw;
+    text-align: center;
+}
+
+#aboutCon {
+    margin-left: 5vw;
+    color: #3B3D3F;
+    font-family: sans-serif;
+    font-size: 1.75vw;
+    width: 40vw;
+    font-weight: 50;
+    text-align: justify;
+}
+
+#aboutFlex {
+    display: flex;
+}
+
+#aboutImgCon {
+    height: 18.48vw;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutImg {
+    height: 18.48vw;
+    width: 40vw;
+    border-radius: 3vw;
+}
+
+#workFlex {
+    display: grid;
+    grid-template-columns: 25fr 25fr 25fr 25fr;
+}
+
+#workingSec {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.workcon {
+    padding:2vw;
+    border-left: 0.1vw solid #9E1E35;
+    border-right: 0.1vw solid #9E1E35;    
+}
+
+.workcon h2 {
+    font-size: 3vw;
+    padding: 1vw;
+    color: #1a6ab4;
+}
+
+.workcon h3 {
+    padding: 0.5vw;
+    font-size: 2vw;
+    color: #298b1b;
+}
+
+.workcon p {
+    font-size: 1.5vw;
+}
+
+#workingSec h1 {
+    padding: 3vw;
+    font-size: 3.5vw;
+    color: #464a4d;
+}
+
+#workingSec {
+    padding: 2vw;
+}
+
+#developer {
+    background-color: #85ef6545;
+    width: 100vw;
+    height: 39.27vw;
+}
+
+#dev_head {
+    color: #464a4d;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 11.44vw;
+    padding-left: 3vw;
+    display: inline-block;
+    padding-top: 3.696vw;
+}
+
+#devPar {
+    width: 50vw;
+    margin-left: 3vw;
+    margin-top: 1.386vw;
+    font-size: 1.764vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+#devImg {
+    width: 35vw;
+    height: 27.72vw;
+    padding-right: 10vw;
+    margin-top: 4.62vw;
+    text-align: center;
+    float: right;
+}
+
+#devCap {
+    color: #464a4d;
+    font-size: 2.4vw;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+    float: right;
+    clear: right;
+    margin-right: 15vw;
+    margin-top: 1.386vw;
+}
+
+.devIcon {
+    height: 4.62vw; 
+    width: 5vw;
+    margin-left: 5vw;
+    margin-top: 3.234vw;
+}
+
+.devIcon2 {
+    height: 4.62vw; 
+    width: 5vw;
+    margin-left: 5vw;
+    margin-top: 0.462vw;
+}
+
+.icDes {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2vw;
+    margin-top: 2.31vw;
+}
+
+.icDes2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2vw;
+    margin-top: 0vw;
+}
+
+#ic {
+    display: flex;
+    flex-direction: column;
+}
+
+.icCon {
+    display: flex;
+}
+
+.icCon2 {
+    display: flex;
+    margin-top: 0;
+}
+
+.pointerL {
+    width:40vw;
+    height: 18.48vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointerL:before {
+    content: "";
+    position: absolute;
+    right: -6.8376vw;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 9.24vw solid transparent;
+    border-bottom: 9.24vw solid transparent;
+    display: block;
+}
+
+.pointerR {
+    width:40vw;
+    height: 18.48vw;
+    position: relative;
+    float: right;
+    right: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointerR:before {
+    display: block;
+    content: "";
+    position: absolute;
+    left: -6.8376vw;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 9.24vw solid transparent;
+    border-bottom: 9.24vw solid transparent;
+    float: right;
+}
+    
+#pointer-1 {
+    background-color: #63ABEA;
+}
+
+#pointer-1:before {
+    border-left: 6.93vw solid #63ABEA;
+}
+
+#pointer-1 h1 {
+    color: #e3e7eb;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3vw;
+}
+
+#pointer-1 h1 span {
+    color: #174c7b;
+    font-size: 6vw;
+    margin-top: 6.93vw;
+}
+
+#pointer-2 {
+    background-color: #83EB63;
+}
+
+#pointer-2:before {
+    border-right: 6.93vw solid #83EB63
+}
+
+#pointer-2 h1 {
+    color: rgb(37, 37, 37);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3vw;
+}
+
+#pointer-2 h1 span {
+    color: #368f1b;
+    font-size: 6vw;
+}
+
+#pointer-3 {
+    background-color: #EBB663;
+    clear: right;
+}
+
+#pointer-3:before {
+    border-left: 6.93vw solid #EBB663;
+}
+
+#pointer-3 h1 {
+    color: rgb(37, 37, 37);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3vw;
+}
+
+#pointer-3 h1 span {
+    color: #946417;
+    font-size: 6vw;
+}
+
+#pointer-4 {
+    background-color: #718496;
+}
+
+#pointer-4:before {
+    border-right: 6.93vw solid #718496;
+}
+
+#pointer-4 h1 {
+    color: rgb(214, 214, 214);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3vw;
+}
+
+#pointer-4 h1 span {
+    color: #0c263f;
+    font-size: 6vw;
+}
+
+#aniSec {
+    height: 80.85vw;
+    background-image: url('../Images/ani-bckg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.23vw;
+}
+
+#aniSec::after {
+    content: '';
+    background-color: #ccd1d95e;
+}
+
+#footShape {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #e3e7eb;
+}
+
+#firHalf {
+    display: flex;
+    flex-direction: column;
+}
+
+#firHalf2 {
+    height: 4.62vw;
+    width: 50vw;
+    background-color: #e3e7eb;   
+    border-bottom-left-radius: 200%;
+    position: absolute;
+}
+
+#firHalf1 {
+    height: 4.62vw;
+    width: 50vw;
+    background-color: #9E1E35;
+}
+
+#midHalf {
+    display: flex;
+    flex-direction: column;
+}
+
+#midHalf2 {
+    height: 4.62vw;
+    width: 50vw;
+    background-color: #e3e7eb;   
+    border-bottom-right-radius: 200%;
+    position: absolute;
+}
+
+#midHalf1 {
+    height: 4.62vw;
+    width: 50vw;
+    background-color: #9E1E35;
+}
+
+#footer {
+    height: 13.86vw;
+    background-color: #9E1E35;
+    display: flex;
+}
+
+#footTitle {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footTitle h1:hover {
+    color: #e097a4;
+}
+
+#footTitle h1 {
+    color: #cccfd3;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 5vw;
+}
+
+#footCon {
+    width: 60vw;
+    height: 13.86vw;
+    border-left: 0.001vw solid #cccfd3;
+    display: grid;
+    grid-template-rows: 40fr 60fr;
+}
+
+#footLinkCon {
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#footLinkCon a{
+    text-decoration: none;
+    color: #BBD9F3;
+    font-size: 2vw;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#footLinkCon li {
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+#footRef h2 {
+    font-size: 1.2vw;
+}
+
+#footRef h3 {
+    font-size: 2vw;
+}
+
+#footRef {
+    color: #cccfd3;
+    font-family: 'League Spartan', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footLinkCon a:hover {
+    color: #e097a4;
+}
+
+#footLinkCon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.001vw solid #cccfd3;
+    list-style-type: none;
+}
+
+.iconDev {
+    font-size: 2.25vw;
+}
+
+#icon1 {
+    margin-top: 0vw;
+}
+
+#icon2 {
+    margin-top: 2vw;
+}
+
+@media only screen and (max-width: 850px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    #homeSec {
+        height: 150vw;
+    }
+    #logo {
+        margin-top: 10vw;
+        width:60vw;
+        height: 20vw;
+    }
+    #navi {
+        width: 100vw;
+        margin-top: 45vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        float: left;
+        position: absolute;
+        left: -5vw;
+    }
+    #navi a {
+        font-size: 4vw;
+    }
+    .navLink a {
+        margin-left: 18vw !important;
+    }
+    .LogBox {
+        width: 30vw !important;
+        height: 10vw !important;
+        margin-top: 10vw !important;
+        border-radius: 20vw !important;
+    }
+    .Login {
+        font-size: 5vw !important;
+    }
+    #sec1Image {
+        position: absolute;
+        top: 100vw;
+        left: 15vw;
+        width:70vw;
+        height: 40vw;
+    }
+    #sec1Head {
+        top:30vw;
+        position: relative;
+        width: 90vw;
+        font-size: 11vw;
+        left: 24vw;
+    }
+    #secButtonGrid button:hover {
+        height: 10vw;
+        width: 20vw;
+        border-radius: 20vw;
+    }
+    #secButtonGrid {
+        position: absolute;
+        top: 75vw;
+        margin-left: 48vw;
+    }
+    #secButtonGrid a {
+        font-size: 4vw;
+    }
+    #secButtonGrid button {
+        height: 10vw;
+        width: 20vw;
+        border-radius: 20vw;
+    }
+    #aboutSec {
+        height: 130vw;
+    }
+    #aboutHead {
+        font-size: 11vw;
+        padding-top: 10vw;
+        padding-bottom: 8vw;
+    }
+    #aboutCon {
+        width: 80vw;
+        font-size: 4vw;
+        text-align: justify;
+        position: relative;
+        top: 40vw;
+        margin-left: 10vw;
+    }
+    #aboutImg {
+        position: relative;
+        top: -45vw;
+        left: 20vw;
+        height: 30vw;
+        width: 90vw;
+    }
+    #aboutFlex {
+        display: block;
+    }
+    #workingSec {
+        height: 120vw;
+    }
+    #workingSec h1{
+        font-size: 7.5vw;
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+}
+
